@@ -8,26 +8,28 @@
 <body>
   <header class="header-main">
     <a href="#" class="logo-link">
-      <img src="#" alt="ice brand logo">
+      <img src="#" alt="Ice brand logo">
     </a>
 
-    <ul class="site-navigation">
-      <li class="site-navigation__item">
-        <a href="#" class="site-navigation__link site-navigation__link--active">Home</a>
-      </li>
-      <li class="site-navigation__item">
-        <a href="#" class="site-navigation__link">Feature</a>
-      </li>
-      <li class="site-navigation__item">
-        <a href="#" class="site-navigation__link">Product</a>
-      </li>
-      <li class="site-navigation__item">
-        <a href="#" class="site-navigation__link">Pricing</a>
-      </li>
-      <li class="site-navigation__item">
-        <a href="#" class="site-navigation__link">Testimonials</a>
-      </li>
-    </ul>
+    <nav class="main-nav">
+      <ul class="main-nav__navigation-list site-navigation">
+        <li class="site-navigation__item">
+          <a href="#" class="site-navigation__link site-navigation__link--active">Home</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="#" class="site-navigation__link">Feature</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="#" class="site-navigation__link">Product</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="#" class="site-navigation__link">Pricing</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="#" class="site-navigation__link">Testimonials</a>
+        </li>
+      </ul>
+    </nav>
 
     <button class="auth-button button">Join now</button>
   </header>
@@ -125,6 +127,103 @@
       </div>
     </section>
 
+    <section class="pricing">
+      <div class="pricing__wrapper">
+        <b class="pricing__footnote">Pricing !</b>
+        <h2 class="pricing__title">A little bit about the prices of our products</h2>
+        <div class="pricing__wrapper">
+          <span class="pricing__price">$15 /pc</span>
+          <div class="pricing__separator"></div>
+          <div class="pricing__rating">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+          </div>
+        </div>
+        <p class="pricing__text">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim.</p>
+        <div class="pricing__wrapper">
+          <a href="#" class="pricing__buy-link button">Buy now</a>
+          <a href="#" class="pricing__buy-link button button__white">Add to card</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h2 class="visually-hidden">Отзывы</h2>
+      <img src="#" alt="Avatars of users who have left reviews" class="reviews__persons">
+      <ul class="reviews__pagination">
+        <li class="reviews__item">1</li>
+        <li class="reviews__item">2</li>
+        <li class="reviews__item">3</li>
+        <li class="reviews__item">4</li>
+        <li class="reviews__item">5</li>
+      </ul>
+      <div class="reviews__wrapper">
+        <b class="reviews__author">Cameron Williamson</b>
+        <div class="reviews__wrapper">
+          <div class="reviews__line"></div>
+          <cite class="reviews__footnote">Binford Ltd.</cite>
+        </div>
+        <p class="reviews__text">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+        </p>
+      </div>
+    </section>
+
+    <section class="discount">
+      <b class="discount__footnote">joined 50% offer</b>
+      <h2 class="discount__title">Discount on the first order</h2>
+      <p class="discount__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <div class="discount__wrapper">
+        <button class="discount__auth button">Joined now</button>
+        <a href="#" class="discount__contact">Contact us</a>
+      </div>
+    </section>
+
   </main>
+  <footer class="footer-main">
+    <div class="about-us">
+      <img src="#" alt="Ice brand logo" class="about-us__logo">
+      <p class="about-us__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+    <div class="help">
+      <b class="help__title">Help</b>
+      <ul class="help__nav help-navigation">
+        <li class="help-navigation__item">
+          <a href="#" class="help-navigation__link">Abouts</a>
+        </li>
+        <li class="help-navigation__item">
+          <a href="#" class="help-navigation__link">Product</a>
+        </li>
+        <li class="help-navigation__item">
+          <a href="#" class="help-navigation__link">About us</a>
+        </li>
+        <li class="help-navigation__item">
+          <a href="#" class="help-navigation__link">Pricing</a>
+        </li>
+        <li class="help-navigation__item">
+          <a href="#" class="help-navigation__link">Usefull link</a>
+        </li>
+      </ul>
+    </div>
+    <div class="social">
+      <b class="social__title">Following</b>
+      <ul class="social__list">
+        <li class="social__item">Youtube</li>
+        <li class="social__item">Facebook</li>
+        <li class="social__item">Instagram</li>
+        <li class="social__item">Twitter</li>
+      </ul>
+    </div>
+    <div class="newsletter">
+      <b class="newsletter__title">Newsletter</b>
+      <form action="" class="newsletter__form">
+        <input type="email" class="newsletter__input" placeholder="Your email address">
+        <button type="submit">Sing up</button>
+      </form>
+    </div>
+  </footer>
 </body>
 </html>
