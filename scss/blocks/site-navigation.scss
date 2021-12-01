@@ -1,0 +1,25 @@
+.site-navigation {
+  list-style-type: none;
+  display: flex;
+
+  padding: 0;
+  margin: 0;
+}
+
+.site-navigation__item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.site-navigation__link {
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.site-navigation__link--active {
+  opacity: 1;
+  font-weight: bold;
+
+  border-bottom: 3px solid #FA7154;
+}

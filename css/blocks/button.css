@@ -1,0 +1,13 @@
+.button {
+  background-color: #D92520;
+  color: #FFFFFF;
+  font: inherit;
+  text-transform: capitalize;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

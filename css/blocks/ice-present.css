@@ -1,0 +1,16 @@
+.ice-present__footnote {
+  background-color: #FFF5F5;
+  font-weight: normal;
+  color: #D6241F;
+  border-radius: 280px;
+  text-transform: uppercase;
+  padding: 8px;
+}
+.ice-present__footnote::after {
+  content: "";
+  width: 45px;
+  height: 44px;
+  background-image: url("assets/img/ico-ice.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
